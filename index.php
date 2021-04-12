@@ -90,16 +90,16 @@
     </nav>
 
     <section class="home">
-    <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-6 landing-text">
-             <p>Record Keeping In The Farm Made Easy</p>
-            </div>
-            <div class="col-sm-8">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 landing-text">
+            <p>Record Keeping In The Farm Made Easy</p>
+          </div>
+          <div class="col-sm-8">
 
-            </div>
           </div>
         </div>
+      </div>
     </section>
     <section class="mid-section">
       <div class="row">
@@ -168,9 +168,11 @@
           <div class="row">
             <div class="col-sm-4">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nulla, placerat eget magna ullamcorper, egestas commodo ipsum. Mauris vitae varius mi. Nam massa nibh, tincidunt ultricies suscipit in, mollis eget arcu. Etiam quis vulputate enim, quis cursus ex. Morbi auctor porttitor erat, eget facilisis nulla laoreet vitae. </p>
+              <br>
               <button class="button button6">Learn More -></button>
             </div>
             <div class="col-sm-8">
+            <img class="img-responsive" src="pictures/sevices.png" alt="Services"/>
 
             </div>
           </div>
