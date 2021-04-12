@@ -83,6 +83,19 @@ body {
     background-position: center top;
 	background-size:cover;
 }
+.landing-text{
+    color:#fff;
+    margin-top:150px;
+    margin-left: 100px;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.landing-text p{
+    font-size: 80px;
+}
 /*Middle Section*/
 .mid-section{
 
@@ -125,7 +138,7 @@ body {
   .third-section{
       max-width: 100%;
       background-color:#fff;
-      font-size: 2em;
+      font-size: 1.2em;
   }
   .card-section{
       padding:28px;
@@ -143,10 +156,30 @@ body {
   /*Fourth Section */
   .fourth-section{
       font-size: 2em;
+      padding-top: 50px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 80px;
   }
+  
+.button {
+    background-color: #e65144; /* Orange */
+    border: none;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+
+  }
+  .button6 {border-radius: 34px;}
 
 
 
+/*End of Fourth Section */
 .navTrigger {
     display: none;
 }

@@ -90,7 +90,16 @@
     </nav>
 
     <section class="home">
+    <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6 landing-text">
+             <p>Record Keeping In The Farm Made Easy</p>
+            </div>
+            <div class="col-sm-8">
 
+            </div>
+          </div>
+        </div>
     </section>
     <section class="mid-section">
       <div class="row">
@@ -98,8 +107,6 @@
         <div class="col-sm-8 mid-section-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non suscipit dui. Sed ut ornare felis. Pellentesque ut posuere massa. Nulla eu massa venenatis, consequat enim nec, luctus turpis. Mauris at dictum ipsum. Nam ac aliquet tortor. Mauris vulputate, lacus non rhoncus sagittis, velit lacus laoreet enim, id maximus diam nisi in lorem.
           <br>
           <button class="button button5">Learn More</button>
-
-
         </div>
         <div class="col-sm-2"></div>
       </div>
@@ -161,14 +168,13 @@
           <div class="row">
             <div class="col-sm-4">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nulla, placerat eget magna ullamcorper, egestas commodo ipsum. Mauris vitae varius mi. Nam massa nibh, tincidunt ultricies suscipit in, mollis eget arcu. Etiam quis vulputate enim, quis cursus ex. Morbi auctor porttitor erat, eget facilisis nulla laoreet vitae. </p>
-              <button class="button button5">Learn More -></button>
+              <button class="button button6">Learn More -></button>
             </div>
             <div class="col-sm-8">
 
             </div>
           </div>
         </div>
-
       </section>
 
 
