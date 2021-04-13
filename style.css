@@ -246,6 +246,20 @@ body {
   .nav div.media_button {
     display: block;
   }
+
+  
+.third-section{
+    max-width: 100%;
+    background-color:#fff;
+    font-size: 1.2em;
+    padding:20px;
+    margin-left:30px;
+  }
+  .card-section{
+    padding:28px;
+    margin-top:30px;
+  }
+
   .card-section{
     margin-top:5px;
   }
@@ -483,4 +497,8 @@ body {
   .myP {
     padding:2%;
   }
+}
+
+@media all and (max-width:320px){
+    
 }
