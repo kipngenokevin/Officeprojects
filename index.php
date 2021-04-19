@@ -80,7 +80,7 @@
       </div>
       <div id="mainListDiv" class="main_list">
         <ul class="navlinks">
-        <li><a href="index.php">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li>
             <div class="dropdown">
               <button class="dropbtn">About Us</button>
@@ -90,20 +90,21 @@
                 <a href="About_us.php#objectives">Objectives</a>
               </div>
             </div>
-            </li>
-            <li><a href="Resources.php">Resources</a></li>
-            <li><a href="Contact.php">Contact</a></li>
-            <li><a href="Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          </ul>
+          </li>
+          <li><a href="Resources.php">Resources</a></li>
+          <li><a href="Contact.php">Contact</a></li>
+          <li><a href="Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a href="Login.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        </ul>
 
-        </div>
-        <span class="navTrigger">
-          <i></i>
-          <i></i>
-          <i></i>
-        </span>
       </div>
-    </nav>
+      <span class="navTrigger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </div>
+  </nav>
     <section class="home">
       <div class="container-fluid">
         <div class="row">

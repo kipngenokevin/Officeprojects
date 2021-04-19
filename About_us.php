@@ -71,6 +71,7 @@
   }
   .about_us{
     background-color:#DDDDDD;
+    height:100vh;
   }
   .containr {
     padding: 64px;
@@ -157,6 +158,7 @@
           <li><a href="Resources.php">Resources</a></li>
           <li><a href="Contact.php">Contact</a></li>
           <li><a href="Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a href="Login.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         </ul>
 
       </div>
@@ -170,51 +172,48 @@
   <section class="about_us">
 
     <!-- The App Section -->
-    <div class="container containr">
+    <div class="container containr" id="vision_section">
       <div class="row">
         <div class="column-66">
-          <h1 class="xlarge-font" id="vision_section"><b>Vision</b></h1>
-          <h1 class="large-font" style="color:MediumSeaGreen;"><b>Why buy it?</b></h1>
-          <p><span style="font-size:36px">Take photos like a pro.</span> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <button class="button_about">Download Application</button>
+          <h1 class="xlarge-font"><b>Vision</b></h1>
+          <h1 class="large-font" style="color:MediumSeaGreen;"><b>Why join us?</b></h1>
+          <p><span style="font-size:16px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Quam elementum pulvinar etiam non quam lacus suspendisse. Donec et odio pellentesque diam. Enim ut sem viverra aliquet. Pellentesque nec nam aliquam sem et tortor consequat id porta. Posuere morbi leo urna molestie at elementum eu facilisis sed. Vehicula ipsum a arcu cursus. Sed id semper risus in hendrerit gravida rutrum quisque. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Sem nulla pharetra diam sit amet. Condimentum lacinia quis vel eros. Fermentum dui faucibus in ornare quam viverra. Nulla at volutpat diam ut.</span></p> 
         </div>
         <div class="column-33">
-          <img src="/w3images/img_app.jpg" width="335" height="471">
+          <img src="pictures/vision.jpg" width="335" height="471">
         </div>
       </div>
     </div>
-</section>
+    </section>
     <!-- Clarity Section -->
-    <div class="container containr" style="background-color:#f1f1f1">
+    <div class="container containr" id="mission_section">
       <div class="row">
         <div class="column-33">
-          <img src="/w3images/app5.jpg" alt="App" width="335" height="471">
+          <img src="pictures/mission.jpg" alt="App" width="335" height="471">
         </div>
         <div class="column-66">
-          <h1 class="xlarge-font"><b>Clarity</b></h1>
-          <h1 class="large-font" style="color:red;"><b>Pixels, who?</b></h1>
-          <p><span style="font-size:24px">A revolution in resolution.</span> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          <button class="button_about" style="background-color:red">Read More</button>
+          <h1 class="xlarge-font"><b>Our Mission</b></h1>
+          <h1 class="large-font" style="color:#e65144;"><b>Our Purpose</b></h1>
+          <p><span style="font-size:16px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Quam elementum pulvinar etiam non quam lacus suspendisse. Donec et odio pellentesque diam. Enim ut sem viverra aliquet. Pellentesque nec nam aliquam sem et tortor consequat id porta. Posuere morbi leo urna molestie at elementum eu facilisis sed. Vehicula ipsum a arcu cursus. Sed id semper risus in hendrerit gravida rutrum quisque. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Sem nulla pharetra diam sit amet. Condimentum lacinia quis vel eros. Fermentum dui faucibus in ornare quam viverra. Nulla at volutpat diam ut.</span></p>
         </div>
       </div>
     </div>
-
+   
     <!-- The App Section -->
-    <div class="container containr">
+    <div class="container containr" id="objectives" style="background-color:#DDDDDD;">
       <div class="row">
         <div class="column-66">
-          <h1 class="xlarge-font"><b>The App</b></h1>
-          <h1 class="large-font" style="color:MediumSeaGreen;"><b>Why buy it?</b></h1>
-          <p><span style="font-size:36px">Take photos like a pro.</span> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          <button class="button_about">Download Application</button>
+          <h1 class="xlarge-font"><b>Objectives</b></h1>
+          <h1 class="large-font" style="color:MediumSeaGreen;"><b>Our Goal?</b></h1>
+          <p><span style="font-size:16px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Quam elementum pulvinar etiam non quam lacus suspendisse. Donec et odio pellentesque diam. Enim ut sem viverra aliquet. Pellentesque nec nam aliquam sem et tortor consequat id porta. Posuere morbi leo urna molestie at elementum eu facilisis sed. Vehicula ipsum a arcu cursus. Sed id semper risus in hendrerit gravida rutrum quisque. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Sem nulla pharetra diam sit amet. Condimentum lacinia quis vel eros. Fermentum dui faucibus in ornare quam viverra. Nulla at volutpat diam ut.</span></p> 
         </div>
         <div class="column-33">
-          <img src="/w3images/img_app.jpg" width="335" height="471" >
+          <img src="pictures/objectives.jpg" width="335" height="471">
         </div>
       </div>
     </div>
 
-  </section>
+  
 
 
   <footer class="footer-32892 pb-0">

@@ -18,7 +18,8 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
-
+  
+  
   <link rel="stylesheet" href="fonts/icomoon/style.css">
 
   <!-- Bootstrap CSS -->
@@ -64,7 +65,63 @@
 
   .dropdown:hover .dropbtn {background-color: transparent;}
   .dropdown:hover .dropbtn  {color:#F5796D;}
-
+body{
+  background-color:#ddd;
+}
+  .contact-form{
+    background: #ddd;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+.contact-form .form-control{
+    border-radius:2rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: 5%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -13%;
+    text-align: center;
+    color:#158030;
+    font-size:24px;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 2rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+.size{
+  font-size:16px;
+}
   </style>
 
 
@@ -79,7 +136,7 @@
       </div>
       <div id="mainListDiv" class="main_list">
         <ul class="navlinks">
-        <li><a href="index.php">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li>
             <div class="dropdown">
               <button class="dropbtn">About Us</button>
@@ -89,22 +146,56 @@
                 <a href="About_us.php#objectives">Objectives</a>
               </div>
             </div>
-            </li>
-            <li><a href="Resources.php">Resources</a></li>
-            <li><a href="Contact.php">Contact</a></li>
-            <li><a href="Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          </ul>
+          </li>
+          <li><a href="Resources.php">Resources</a></li>
+          <li><a href="Contact.php">Contact</a></li>
+          <li><a href="Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a href="Login.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        </ul>
 
-        </div>
-        <span class="navTrigger">
-          <i></i>
-          <i></i>
-          <i></i>
-        </span>
       </div>
-    </nav>
+      <span class="navTrigger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </div>
+  </nav>
 
-  
+  <div class="container contact-form">
+            <div class="contact-image">
+               <img src="pictures/email.png" alt="mail">
+            </div>
+            <form method="post">
+                <h3>Drop Us a Message</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control size" placeholder="Your Name *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control size" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control size" placeholder="Your Phone Number *" value="" />
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control size" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact size" value="Send Message" />
+                        </div>
+                    </div>
+                  
+              
+                  
+                </div>
+            </form>
+</div>
+ 
 
 
       <footer class="footer-32892 pb-0">

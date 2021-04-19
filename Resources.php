@@ -65,6 +65,69 @@
   .dropdown:hover .dropbtn {background-color: transparent;}
   .dropdown:hover .dropbtn  {color:#F5796D;}
 
+  .containr {
+  padding: 64px;
+  height:100vh;
+}
+.resources_background{
+  background-image:url("pictures/resources.jpg")
+}
+.resources_home{
+  margin-top:50px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+
   </style>
 
 
@@ -80,7 +143,7 @@
       </div>
       <div id="mainListDiv" class="main_list">
         <ul class="navlinks">
-        <li><a href="index.php">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li>
             <div class="dropdown">
               <button class="dropbtn">About Us</button>
@@ -90,21 +153,50 @@
                 <a href="About_us.php#objectives">Objectives</a>
               </div>
             </div>
-            </li>
-            <li><a href="Resources.php">Resources</a></li>
-            <li><a href="Contact.php">Contact</a></li>
-            <li><a href="Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          </ul>
+          </li>
+          <li><a href="Resources.php">Resources</a></li>
+          <li><a href="Contact.php">Contact</a></li>
+          <li><a href="Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a href="Login.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        </ul>
 
-        </div>
-        <span class="navTrigger">
-          <i></i>
-          <i></i>
-          <i></i>
-        </span>
       </div>
-    </nav>
-
+      <span class="navTrigger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </div>
+  </nav>
+ <section class="resources">
+ <section class="resources_background">
+  <div class="container containr">
+  <div class="row resources_home">
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>Research for Small and Mid-Sized Farms</b></h1>
+      <p><span style="font-size:16px; color:white;">lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
+      <button class="button">Read More</button>
+    </div>
+  </div>
+</div>
+</section>
+<!-- Clarity Section -->
+<section style="background-color:#f1f1f1">
+<div class="container containr">
+  <div class="row">
+    <div class="column-33">
+      <img src="/w3images/app5.jpg" alt="App" width="335" height="471">
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>Agriculture Needs Climate Solutions and More</b></h1>
+      <p><span style="font-size:16px">cididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></p>
+      <button class="button" style="background-color:#e65144">Read More</button>
+    </div>
+  </div>
+</div>
+</section>
+<!-- The App Section -->
+</section>
   
 
 
