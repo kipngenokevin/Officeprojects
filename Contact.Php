@@ -115,7 +115,7 @@ body{
     border-radius: 1rem;
     padding: 1.5%;
     color: #fff;
-    background-color: #0062cc;
+    background-color: #e65144;
     border: none;
     cursor: pointer;
 }
