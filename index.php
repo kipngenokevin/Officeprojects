@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Responsive Fixed Animated NavBar</title>
+  <title>Gichuki Greens Home</title>
   <link rel="stylesheet" href="./style.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -80,21 +80,21 @@
       </div>
       <div id="mainListDiv" class="main_list">
         <ul class="navlinks">
-          <li><a href="index.php">Home</a></li>
+          <li><a href="index">Home</a></li>
           <li>
             <div class="dropdown">
               <button class="dropbtn">About Us</button>
               <div class="dropdown-content">
-                <a href="About_us.php#vision_section">Our Vision</a>
-                <a href="About_us.php#mission_section">Mission</a>
-                <a href="About_us.php#objectives">Objectives</a>
+                <a href="About_us#vision_section">Our Vision</a>
+                <a href="About_us#mission_section">Mission</a>
+                <a href="About_us#objectives">Objectives</a>
               </div>
             </div>
           </li>
-          <li><a href="Resources.php">Resources</a></li>
-          <li><a href="Contact.php">Contact</a></li>
-          <li><a href="Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          <li><a href="Login.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="Resources">Resources</a></li>
+          <li><a href="Contact">Contact</a></li>
+          <li><a href="Login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a href="Login"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         </ul>
 
       </div>
